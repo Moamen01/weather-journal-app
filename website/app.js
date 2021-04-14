@@ -1,7 +1,7 @@
 
 
 // Personal API Key for OpenWeatherMap API
-const apiKey = "&appid=9f66733271278886eb8678e6ce1d4100&units=metric";
+const apiKey = "&appid=Key&units=metric";
 const apiURL = "http://localhost:3000/";
 
 const zipCode = document.getElementById('zip');
