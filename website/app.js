@@ -21,7 +21,7 @@ function performAction(e){
   let inputData = {
     zipCode: zipCode.value,
     content: feelings.value,
-    date: d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear()
+    date: (d.getMonth()+1)+'.'+ d.getDate()+'.'+ d.getFullYear()
   }
 
 /* Function to GET Web API Data*/
