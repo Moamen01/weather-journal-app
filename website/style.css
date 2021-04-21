@@ -1,8 +1,17 @@
 body{
     background: #fffff8;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-image: url("img23.jpg");
+    color: white;
+
 }
 
 .container{
+  border: 2px;
+  border-style: groove;
   text-align: center;
+  width: 40%;
+  height: 100%;
+
+
 }
